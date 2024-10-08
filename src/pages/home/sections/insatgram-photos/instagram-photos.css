@@ -1,0 +1,19 @@
+#insta-photos .inner-container {
+  margin-top: 7.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+}
+
+#insta-photos .photo {
+  flex: 1;
+  height: 20.625rem;
+  background-color: #d8d8d8;
+}
+
+#insta-photos .photo:nth-child(2),
+#insta-photos .photo:nth-child(4) {
+  background-color: #ccc;
+}

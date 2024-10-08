@@ -1,0 +1,25 @@
+#categories .inner-container {
+  max-width: 1920px;
+  padding: 120px 0;
+  display: flex;
+}
+
+#categories .category {
+  background-color: #ccc;
+  flex: 1;
+}
+
+#categories .category a {
+  display: block;
+  place-content: center;
+  padding: 7.812rem 2.5rem;
+}
+
+#categories h2 {
+  margin-top: 10px;
+  max-width: 280px;
+}
+
+#categories .category:nth-child(2) {
+  background-color: #d8d8d8;
+}

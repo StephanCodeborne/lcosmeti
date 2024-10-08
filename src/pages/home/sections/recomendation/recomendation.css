@@ -1,0 +1,16 @@
+#recomendation .inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7.5rem 0;
+}
+
+#recomendation .image {
+  width: 570px;
+  height: 400px;
+  background-color: #ccc;
+}
+
+#recomendation .reference {
+  max-width: 520px;
+}

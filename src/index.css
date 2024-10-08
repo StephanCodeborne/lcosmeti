@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-brand-color: #7fc0e9;
+  --secondary-brand-color: #8391ca;
+  --primary-text-color: #151d3f;
+  --secondary-text-color: #595b66;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans";
+}
+
+.df {
+  display: flex;
+}
+
+.inner-container {
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 1170px;
+}
+
+.pre-header-caption {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.27em;
+  color: #7fc0e9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--primary-text-color);
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 123%;
+}
+
+h2 {
+  font-size: 2.38rem;
+  line-height: 121%;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 133%;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main-button-style {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 1rem;
+  min-width: 212px;
+}
+
+.main-button-style.filled {
+  background-color: #7fc0e9;
+  color: #fff;
+  border: none;
+}
+
+.main-button-style.empty {
+  background-color: transparent;
+  color: var(--primary-text-color);
+  border: 1px solid var(--primary-text-color);
+}
+
+.description {
+  font-size: 1.19rem;
+  line-height: 126.3%;
+  color: var(--secondary-text-color);
+}
+
+.smaller-description {
+  font-size: 1.06rem;
+  line-height: 123.5%;
+  color: var(--secondary-text-color);
+}
+
+.reference .description {
+  margin: 0.75rem 0 2.5rem;
+}

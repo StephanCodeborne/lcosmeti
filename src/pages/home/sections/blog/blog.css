@@ -1,0 +1,35 @@
+#blog .inner-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 7.5rem 0;
+}
+
+#blog .heading h2 {
+  max-width: 300px;
+  margin-top: 0.313rem;
+}
+
+#blog .posts {
+  display: flex;
+  gap: 3.125rem;
+  flex-wrap: wrap;
+  max-width: 590px;
+}
+
+.post {
+  max-width: 270px;
+}
+
+.post .date {
+  text-transform: none;
+}
+
+.post h3 {
+  margin: 0.25rem 0 0.75rem;
+}
+
+.post .post-description {
+  color: var(--secondary-text-color);
+  font-size: 0.937rem;
+  line-height: 140%;
+}

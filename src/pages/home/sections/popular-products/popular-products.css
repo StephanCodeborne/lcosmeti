@@ -1,0 +1,59 @@
+#popular-products .heading {
+  text-align: center;
+}
+
+#popular-products h2 {
+  margin-top: 0.313rem;
+}
+
+#popular-products .product-cards-container {
+  margin-top: 30px;
+}
+
+#popular-products .top-product-container {
+  margin-top: 7.5rem;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap-reverse;
+  row-gap: 30px;
+}
+
+#popular-products .top-product-container .reference {
+  width: 35.625rem;
+  aspect-ratio: 1;
+  background-color: #ccc;
+  align-content: end;
+  padding: 40px;
+}
+
+#popular-products .top-product-container .description {
+  margin: 0.313rem 0 1.875rem;
+}
+
+#popular-products .top-product-container a {
+  display: flex;
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: var(--secondary-brand-color);
+  border-bottom: 1px solid var(--secondary-brand-color);
+}
+
+#popular-products .top-product-container .video {
+  width: 35.625rem;
+  aspect-ratio: 1;
+  background-color: #ccc;
+  text-align: center;
+  place-content: center;
+}
+
+#popular-products .top-product-container .play {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
