@@ -1,0 +1,12 @@
+.banner {
+  flex: 1;
+  margin: 30px 0 50px;
+  height: 35.625rem;
+  padding: 2.5rem;
+  place-content: end;
+  background-color: #d8d8d8;
+}
+
+.banner .reference {
+  max-width: 545px;
+}

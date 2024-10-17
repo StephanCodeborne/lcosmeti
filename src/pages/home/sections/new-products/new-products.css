@@ -1,0 +1,33 @@
+#new-products .heading {
+  text-align: center;
+}
+
+#new-products .heading h2 {
+  margin-top: 0.313rem;
+}
+
+.dot-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 36px;
+}
+
+.dot-slider .dot-container {
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot-slider .dot {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #c9cbd6;
+}
+
+.dot-container.active .dot {
+  background-color: var(--secondary-brand-color);
+}

@@ -1,0 +1,34 @@
+main {
+  background-color: #ccc;
+}
+
+main .inner-container {
+  display: flex;
+  padding: 17.56rem 0;
+}
+
+main .section-intro-text {
+  max-width: 50%;
+}
+
+main .advantages {
+  color: var(--secondary-text-color);
+  font-size: 1.187rem;
+  line-height: 126.3%;
+  margin: 2.13rem 0 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+main .advantages li {
+  display: flex;
+  align-items: center;
+  gap: 0.44rem;
+}
+
+.button-row {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
